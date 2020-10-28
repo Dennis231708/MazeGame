@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+.hidden {
+	display: none !important;
+}
+.winner h1 {
+	color: white;
+	font-size: 64px;
+}
+.winner {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 1;
+	height: 100vh;
+	width: 100vw;
+}
+
+#playAgain {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	z-index: 1;
+	margin-top: 8rem;
+}
