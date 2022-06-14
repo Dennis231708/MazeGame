@@ -1,25 +1,9 @@
 const { Engine, Render, Runner, World, Bodies, Body, Events } = Matter;
 
 const startGameButton = document.querySelector('#startGame');
-let cellsHorizontal = 10;
-let cellsVertical = 5;
+let cellsHorizontal = 15;
+let cellsVertical = 10;
 
-startGameButton.addEventListener('click', () => {
-	let difficulty = console.log(parseInt(document.querySelector('input[name="difficulty"]:checked').value));
-	if (difficulty === 0) {
-		cellsHorizontal = 10;
-		cellsVertical = 5;
-	} else if (difficulty === 1) {
-		cellsHorizontal = 15;
-		cellsVertical = 10;
-	} else if (difficulty === 2) {
-		cellsHorizontal = 20;
-		cellsVertical = 15;
-	} else if (difficulty === 3) {
-		cellsHorizontal = 30;
-		cellsVertical = 25;
-	}
-});
 
 const width = window.innerWidth;
 const height = window.innerHeight;
