@@ -7,4 +7,4 @@ click of a button. The difficulty would be selected and then it would change the
 
 This project is currently hosted on Netlify if you would like to play the game the link is below.
 
-https://golden-tiramisu-e6e649.netlify.app/
+https://denniswellsmazegame.netlify.app/
